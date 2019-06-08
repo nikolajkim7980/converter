@@ -1,0 +1,23 @@
+.Front {
+  background: url("https://images.pexels.com/photos/2223054/pexels-photo-2223054.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Front button {
+  background: brown;
+  color: white;
+  padding: 15px 30px;
+  font-size: 2em;
+  border: 0;
+}
+
+.Front button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

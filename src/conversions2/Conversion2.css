@@ -1,0 +1,31 @@
+.Conversion2 {
+  background: lightgray;
+}
+
+.Conversion2 .form1 {
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.Conversion2 form input {
+  font-size: 2em;
+  padding: 5px;
+}
+
+.Conversion2 .side-by-side {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 5px;
+}
+
+.Conversion2 .row-by-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.Conversion2 .units {
+  display: flex;
+}
